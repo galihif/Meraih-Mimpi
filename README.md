@@ -1,5 +1,5 @@
 # Meraih-Mimpi
-Meraih Mimpi is an application to record every dream that we will achieve. With this application, we will find it easier to find out the dreams that we will achieve in the near future.
+Meraih Mimpi is an android application to record every dream that we will achieve. With this application, we will find it easier to find out the dreams that we will achieve soon.
 
  ## Features
 - [x] Add goal
