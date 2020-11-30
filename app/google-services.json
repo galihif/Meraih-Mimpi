@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1093686019368",
+    "firebase_url": "https://meraih-mimpi.firebaseio.com",
+    "project_id": "meraih-mimpi",
+    "storage_bucket": "meraih-mimpi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093686019368:android:36467b6d3eeb8f6a53bc1d",
+        "android_client_info": {
+          "package_name": "com.giftech.meraihmimpi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093686019368-ihmln8b5kje354qgtcuhok17jjdk8ss9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBboiWN0tyqErqIu8XNcBvqAb8X38ZzHkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093686019368-ihmln8b5kje354qgtcuhok17jjdk8ss9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

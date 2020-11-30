@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Meraih Mimpi</string>
+    <string name="tutorial">Add goal by clicking the floating button below\nDelete goal by long press the goal item</string>
+    <string name="login">Login</string>
+</resources>
