@@ -10,6 +10,8 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
+
+//      Untuk mengatur durasi splash screen
         var handler = Handler()
         handler.postDelayed({
             val intent = Intent(this,

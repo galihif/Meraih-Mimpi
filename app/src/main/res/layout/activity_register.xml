@@ -104,10 +104,10 @@
         android:id="@+id/btn_register"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Register"
-        android:textSize="18sp"
         android:fontFamily="@font/ubuntu_medium"
+        android:text="Register"
         android:textAllCaps="false"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_to_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

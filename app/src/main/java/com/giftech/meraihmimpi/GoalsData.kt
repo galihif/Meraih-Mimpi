@@ -1,5 +1,7 @@
 package com.giftech.meraihmimpi
 
+//Dummy data untuk mencoba recycler view
+
 object GoalsData {
     private val goalNames = arrayOf(
         "Menguasai Android",

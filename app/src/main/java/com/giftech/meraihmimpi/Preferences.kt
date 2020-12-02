@@ -3,6 +3,11 @@ package com.giftech.meraihmimpi
 import android.content.Context
 import android.content.SharedPreferences
 
+/*
+Class sharedpreferences untuk menyimpan data akun user dalam local storage,
+berguna agar setiap login atau register bisa langsung diarahkan ke home
+ */
+
 class Preferences(val context: Context) {
     companion object {
         const val MEETING_PREF = "USER_PREF"
