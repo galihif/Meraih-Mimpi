@@ -9,6 +9,7 @@ import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.activity_home.*
 
@@ -46,7 +47,7 @@ class HomeActivity : AppCompatActivity(), Connector {
         //Aksi saat floating button diklik
         btn_fab.setOnClickListener {
             //Buat pop up dialog dan inflate layout add_popup
-            var dialog : AlertDialog.Builder = AlertDialog.Builder(this)
+            var dialog = MaterialAlertDialogBuilder(this)
             val view:View = layoutInflater.inflate(R.layout.add_popup, null)
 
             //Masukkan text inputan pada goalname
@@ -74,8 +75,10 @@ class HomeActivity : AppCompatActivity(), Connector {
             //Set positive button
             dialog.setNegativeButton("Cancel") { _: DialogInterface, _: Int ->
             }
+
             //Menampilkan dialog popup
             dialog.show()
+
         }
 
         //Aksi saat button profile di klik, arahkan ke profile
